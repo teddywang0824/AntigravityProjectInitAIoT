@@ -1,0 +1,16 @@
+schema: spec-driven
+
+# Project context (optional)
+# This is shown to AI when creating artifacts.
+context: |
+  [Conventions]
+  - 往後所有透過 /opsx:new 或 /opsx:propose 建立的新變更（Change），其資料夾名稱與相關文件標題都必須強制加上兩位數的流水號前綴，並從 '01-' 開始依序遞增（例如：01-系統架構設計、02-感測器介面規格）。
+# Per-artifact rules (optional)
+# Add custom rules for specific artifacts.
+# Example:
+#   rules:
+#     proposal:
+#       - Keep proposals under 500 words
+#       - Always include a "Non-goals" section
+#     tasks:
+#       - Break tasks into chunks of max 2 hours
